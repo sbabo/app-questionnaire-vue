@@ -1,0 +1,49 @@
+{
+    "title": "Quiz about Foo",
+    "questions": [
+      {
+        "text": "Is true true?",
+        "type": "mc",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "1"
+      },
+      {
+        "text": "Is false true?",
+        "type": "mc",
+        "answers": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "C"
+      },
+      {
+        "text": "What is the best beer?",
+        "type": "mc",
+        "answers": [
+          "Coors",
+          "Miller",
+          "Bud",
+          "Anchor Steam"
+        ],
+        "answer": "Anchor Steam"
+      },
+      {
+        "text": "What is the best cookie?",
+        "type": "mc",
+        "answers": [
+          "Chocolate Chip",
+          "Sugar",
+          "Beer",
+          "Vanilla"
+        ],
+        "answer": "Sugar"
+      }
+    ]
+  }
