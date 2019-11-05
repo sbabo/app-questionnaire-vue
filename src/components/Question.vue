@@ -4,7 +4,14 @@
       <b-row>
         <b-col></b-col>
         <b-col>
-          <h1>{{obj[countQuestion].text}}</h1>
+          <h1>Question n°{{this.countQuestion+1}}</h1>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row>
+        <b-col></b-col>
+        <b-col cols="9">
+          <h2>{{obj[countQuestion].text}}</h2>
         </b-col>
         <b-col></b-col>
       </b-row>
