@@ -2,59 +2,59 @@
     "title": "Quiz about Foo",
     "questions": [
       {
-        "text": "Is true true?",
-        "type": "mc",
-        "answers": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
-        "answer": "1"
+        "text" : "Quel est le comble pour un boulanger ?",
+        "answers":[ "Avoir un coup de foudre", "Se faire rouler dans la farine", "Trouver chaussure à son pied"],
+        "answer" : "Se faire rouler dans la farine"
       },
       {
-        "text": "Is false true?",
-        "type": "mc",
-        "answers": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "answer": "C"
+        "text" : "WHO RUN THE WORLD ?",
+        "answers":[ "Un petit groupe d'élite en secret", "GIRLS !", "J'sais pas, j'm'en fout"],
+        "answer" : "GIRLS !"
       },
       {
-        "text": "What is the best beer?",
-        "type": "mc",
-        "answers": [
-          "Coors",
-          "Miller",
-          "Bud",
-          "Anchor Steam"
-        ],
-        "answer": "Anchor Steam"
+        "text" : "A vaincre sans péril..",
+        "answers":[ "..On triomphe sans gloire", "..On triomphe sans Magloire", "..Bah il est où Péril alors?"],
+        "answer" : "..On triomphe sans gloire"
       },
       {
-        "text": "What is the best cookie?",
-        "type": "mc",
-        "answers": [
-          "Chocolate Chip",
-          "Sugar",
-          "Beer",
-          "Vanilla"
-        ],
-        "answer": "Sugar"
+        "text" : "Toujours vivant, rassurez vous..",
+        "answers":[ "Toujours la pêche", "Toujours la forme", "Toujours la banane"],
+        "answer" : "Toujours la banane"
       },
       {
-        "text": "Une question longue pour tester le CSS sur la page questionnaire et ainsi pouvoir faire des modifications",
-        "type": "mc",
-        "answers": [
-          "Réponse A",
-          "Réponse B",
-          "Réponse C",
-          "Réponse D"
-        ],
-        "answer": "Réponse D"
+        "text" : "Qui m'a tué?",
+        "answers":[ "La mort", "Omar", "Ramo", "Xavier Dupont de ligonnes"],
+        "answer" : "Omar"
+      },
+      {
+        "text" : "What do you want ?",
+        "answers":[ "Me to go back to my plane?", "Be proud of what you are", "a cheesburger plz", "freedom"],
+        "answer" : "Me to go back to my plane?"
+      },
+      {
+        "text" : "Quel est le meilleur moyen de transport?",
+        "answers":[ "La trottinette életctrique", "l'avion A380", "la dacia sandero","le tram un lundi a 17h30"],
+        "answer" : "la dacia sandero"
+      },
+      {
+        "text" : " 1+1 ?",
+        "answers":[ "2", "3", "11 et ca c'est beau"],
+        "answer" : "11 et ca c'est beau"
+      },
+      {
+        "text" : "Qui à été le dj attitré du Bigdil avec Lagaf en 1999 ?",
+        "answers":[ "DJ Aspe", "David Guetta", "Jean-Jacques GoldMan"],
+        "answer" : "DJ Aspe"
+      },
+      {
+        "text" : "Quoi ?",
+        "answers":[ "Feur !", "la Lumpu"],
+        "answer" : "Feur"
+      },
+      {
+        "text" : "Pourquoi on est mieux à L.A ?",
+        "answers":[ "Parce que touters les feuilles sont marrons", "Et le ciel est gris", "Ce sera sûr et chaud"],
+        "answer" : "Ce sera sûr et chaud"
       }
     ]
   }
