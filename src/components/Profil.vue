@@ -11,7 +11,7 @@
           <b-row>
               <b-col></b-col>
               <b-col>
-                  <b-button>Commencer le test</b-button>
+                  <b-button v-on:click="navigate">Commencer le test</b-button>
               </b-col>
               <b-col></b-col>
           </b-row>
@@ -27,13 +27,13 @@ export default {
             form: {
                 email: this.$route.params.email,
                 name: this.$route.params.name,
-                company: this.$route.params
+                company: this.$route.params.company
             },
         }
     },
     methods: {
         navigate() {
-            router.push({name: "questionnaire", params: this.form});
+            this.$router.push({name: "question", params: this.form});
         }
     }
 }

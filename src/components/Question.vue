@@ -46,6 +46,12 @@ var selected = []
         score: 0,
         obj: Questions.questions,
         selected: [], // Must be an array reference!
+        form: {
+          email: this.$route.params.email,
+          name: this.$route.params.name,
+          company: this.$route.params.company,
+          scoreFinal: 0
+        }
       }
     },
     created(){
@@ -63,10 +69,15 @@ var selected = []
           this.score++;
         }
         this.increment();
-        console.log(this.selected);
         this.selected = [];
-        console.log(this.score);
-        console.log(this.selected);
+
+
+        if (this.countQuestion == this.obj.length) {
+          this.form.scoreFinal = this.score;
+          console.log(this.form.scoreFinal);
+          this.$router.push({name: "result", params: this.form})
+          console.log("C'est fini")
+        }
       },
     }
   }

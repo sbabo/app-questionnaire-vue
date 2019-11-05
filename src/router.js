@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Question from './views/Question.vue'
 import Profil from './views/Profil.vue'
 import Login from './views/Login.vue'
+import Result from './views/Result.vue'
 
 Vue.use(Router)
 
@@ -13,8 +14,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
     {
       path: '/about',
@@ -35,9 +41,9 @@ export default new Router({
       component: Profil
     },
     {
-      path: '/login',
-      name: 'login',
-      component: Login
+      path: '/result',
+      name: 'result',
+      component: Result
     }
   ]
 })
